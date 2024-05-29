@@ -86,6 +86,16 @@ img {
   /* min-height: 200px; */
 }
 
+/* next clases card */
+.ms_data {
+  width: 100%;
+  text-align: center;
+}
+
+.next-classes-data {
+  width: 60%;
+}
+
 .ms_breadcrumbs {
   font-size: 14px;
 }
