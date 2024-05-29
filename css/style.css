@@ -74,7 +74,10 @@ img {
 
 /* right content */
 .main-content {
+  background-color: rgb(248, 249, 250);
   width: 100%;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
 }
 /* MAIN HEADER */
 .main-header {
@@ -95,4 +98,9 @@ img {
   color: #fff;
   /* padding: 10px; */
   border: 1px solid #fff;
+}
+
+/* main content card */
+.class-icon {
+  width: 30px;
 }
