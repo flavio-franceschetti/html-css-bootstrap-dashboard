@@ -61,10 +61,6 @@ img {
   height: 100%;
 }
 
-.left-nav-list li {
-  display: inline-block;
-}
-
 .left-nav-list li a,
 .bottom-nav a {
   color: #fff;
@@ -74,4 +70,29 @@ img {
 .left-nav-icon svg {
   width: 20px;
   fill: #fff;
+}
+
+/* right content */
+.main-content {
+  width: 100%;
+}
+/* MAIN HEADER */
+.main-header {
+  background-color: rgb(27, 113, 232);
+  /* debug */
+  /* min-height: 200px; */
+}
+
+.ms_breadcrumbs {
+  font-size: 14px;
+}
+
+.plus-btn {
+  display: inline-block;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  /* padding: 10px; */
+  border: 1px solid #fff;
 }
