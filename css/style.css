@@ -37,7 +37,6 @@ img {
   color: #fff;
   text-align: center;
   align-content: center;
-  font-size: 14px;
   width: 20px;
   height: 20px;
   background-color: rgb(126 126 126);
@@ -46,4 +45,33 @@ img {
 
 .fa-bell {
   color: goldenrod;
+}
+
+/* MAIN */
+/* left nav */
+.left-nav {
+  height: calc(100vh - 70px);
+  width: 80px;
+  background-color: hsl(209.33deg 76.27% 11.57%);
+  background-image: url(../img/sidebar-bg.png);
+}
+
+.left-nav-list {
+  list-style: none;
+  height: 100%;
+}
+
+.left-nav-list li {
+  display: inline-block;
+}
+
+.left-nav-list li a,
+.bottom-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.left-nav-icon svg {
+  width: 20px;
+  fill: #fff;
 }
