@@ -104,3 +104,9 @@ img {
 .class-icon {
   width: 30px;
 }
+
+.stats-section {
+  border: 0.5px solid lightgray;
+  background-color: #fff;
+  border-radius: 5px;
+}
