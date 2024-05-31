@@ -67,6 +67,12 @@ img {
   text-decoration: none;
 }
 
+.left-nav-list li:hover,
+.bottom-nav a {
+  background-color: rgba(211, 211, 211, 0.5);
+  cursor: pointer;
+}
+
 .left-nav-icon svg {
   width: 20px;
   fill: #fff;

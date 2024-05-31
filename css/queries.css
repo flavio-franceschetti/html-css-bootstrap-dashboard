@@ -4,4 +4,9 @@
   .left-nav {
     width: 150px;
   }
+
+  /* offcanvas */
+  .ms_offcanvas {
+    width: 40% !important;
+  }
 }
