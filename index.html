@@ -428,58 +428,42 @@
                   <div class="card mb-2">
                     <div class="card-header fs-4">Prossime classi</div>
                     <div class="card-body">
-                      <!-- boostrap component: https://getbootstrap.com/docs/5.2/components/list-group/#flush -->
-                      <ul class="list-group list-group-flush">
-                        <!-- first li  -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <span class="text-secondary">Nome</span>
-                          </div>
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span
-                              class="ms_data text-secondary d-none d-md-inline"
-                              >Data inizio</span
+                      <!-- boostrap component: https://getbootstrap.com/docs/5.3/content/tables/#overview -->
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th class="w-50" scope="col">Nome</th>
+                            <th class="text-center" scope="col">Data inizio</th>
+                            <th class="text-center" scope="col">ROI</th>
+                            <th
+                              class="text-center"
+                              class="text-center"
+                              scope="col"
                             >
-                            <span
-                              class="ms_data text-secondary d-none d-md-inline"
-                              >ROI</span
-                            >
-                            <span class="ms_data text-secondary">Stato</span>
-                            <span class="ms_data text-secondary">Azioni</span>
-                          </div>
-                        </li>
-                        <!-- item 1 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >15 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-success"
+                              Stato
+                            </th>
+                            <th class="text-center" scope="col">Azioni</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- Item 1 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 75</span>
+                            </td>
+                            <td class="text-center" scope="col">15 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-success"
                                 >Done</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -494,37 +478,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 2 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >16 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-success"
+                            </td>
+                          </tr>
+                          <!-- Item 2 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 76</span>
+                            </td>
+                            <td class="text-center" scope="col">16 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-success"
                                 >Done</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -539,38 +512,27 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 3 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >17 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span
+                            </td>
+                          </tr>
+                          <!-- Item 3 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 77</span>
+                            </td>
+                            <td class="text-center" scope="col">17 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span
                                 class="badge rounded-pill text-white text-bg-warning"
                                 >process</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -585,37 +547,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 4 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >18 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-success"
+                            </td>
+                          </tr>
+                          <!-- Item 4 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 78</span>
+                            </td>
+                            <td class="text-center" scope="col">18 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-success"
                                 >Done</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -630,37 +581,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 5 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >19 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-danger"
+                            </td>
+                          </tr>
+                          <!-- Item 5 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 79</span>
+                            </td>
+                            <td class="text-center" scope="col">19 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-danger"
                                 >failed</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -675,37 +615,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 6 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >20 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-success"
+                            </td>
+                          </tr>
+                          <!-- Item 6 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 80</span>
+                            </td>
+                            <td class="text-center" scope="col">20 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-success"
                                 >Done</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -720,37 +649,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 7 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >21 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-danger"
+                            </td>
+                          </tr>
+                          <!-- Item 7 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 81</span>
+                            </td>
+                            <td class="text-center" scope="col">21 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-danger"
                                 >failed</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -765,37 +683,26 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                        <!-- item 8 -->
-                        <li
-                          class="list-group-item d-flex justify-content-between"
-                        >
-                          <div>
-                            <img
-                              class="class-icon me-2"
-                              src="img/class-avatar-removebg-preview.png"
-                              alt="code"
-                            />
-                            <span>classe 75</span>
-                          </div>
-
-                          <div
-                            class="next-classes-data d-flex gap-5 justify-content-between"
-                          >
-                            <span class="ms_data d-none d-md-inline"
-                              >22 Feb 2021</span
-                            >
-                            <span class="ms_data d-none d-md-inline"
-                              >20&percnt;</span
-                            >
-                            <span class="ms_data"
-                              ><span class="badge rounded-pill text-bg-success"
+                            </td>
+                          </tr>
+                          <!-- Item 8 -->
+                          <tr>
+                            <td class="w-50" scope="col">
+                              <img
+                                class="class-icon me-2"
+                                src="img/class-avatar-removebg-preview.png"
+                                alt="code"
+                              />
+                              <span>classe 82</span>
+                            </td>
+                            <td class="text-center" scope="col">22 Feb 2021</td>
+                            <td class="text-center" scope="col">20%</td>
+                            <td class="text-center" scope="col">
+                              <span class="badge rounded-pill text-bg-success"
                                 >Done</span
                               >
-                            </span>
-                            <span class="ms_data">
+                            </td>
+                            <td class="text-center" scope="col">
                               <button
                                 type="button"
                                 class="btn btn-outline-secondary btn-sm"
@@ -810,10 +717,10 @@
                               >
                                 <i class="text-secondary fa-solid fa-trash"></i>
                               </button>
-                            </span>
-                          </div>
-                        </li>
-                      </ul>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
